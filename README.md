@@ -7,3 +7,10 @@ Mampu memahami konsep dasar dari pemrograman framework
 
 ### Pertemuan 2
 Mampu memahami dan menggunakan Git dan Github
+
+### Pertemuan 3
+Memahami view melalui template
+
+### Pertemuan 4
+- Memahami view melalui template
+- Melanjutkan template

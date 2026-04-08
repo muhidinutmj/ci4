@@ -7,6 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/halo', 'Halo::index');
-$routes->get('/template', function() {
-    return view('layout/template');
-});
+$routes->get('/student', 'StudentController::index');
