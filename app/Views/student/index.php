@@ -7,10 +7,12 @@
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>Nama</th>
+                    <th>No</th>
                     <th>NIM</th>
-                    <th>Email</th>
+                    <th>Nama</th>
+                    <th>Tempat Lahir</th>
+                    <th>Tanggal Lahir</th>
+                    <th>Alamat</th>
                     <th>Aksi</th>
                 </tr>
             </thead>
@@ -18,9 +20,11 @@
                 <?php foreach ($students as $student) : ?>
                     <tr>
                         <td><?= $student['id'] ?></td>
-                        <td><?= $student['name'] ?></td>
                         <td><?= $student['nim'] ?></td>
-                        <td><?= $student['email'] ?></td>
+                        <td><?= $student['name'] ?></td>
+                        <td><?= $student['pob'] ?></td>
+                        <td><?= $student['dob'] ?></td>
+                        <td><?= $student['address'] ?></td>
                         <td>
                             <a href="#" class="btn btn-sm btn-primary">Edit</a>
                             <a href="#" class="btn btn-sm btn-danger">Hapus</a>
