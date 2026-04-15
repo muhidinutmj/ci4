@@ -17,5 +17,9 @@ Memahami view melalui template
 - Memahami Model
 
 ### Pertemuan 5
+- Create data mahasiswa + save
+
+
+
 - Login
 - Register

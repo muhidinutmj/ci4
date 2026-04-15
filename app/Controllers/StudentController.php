@@ -17,4 +17,26 @@ class StudentController extends BaseController
         ];
         return view('student/index', $data);
     }
+
+    public function create()
+    {
+        $data = [
+            'title' => 'Tambah Mahasiswa',
+        ];
+        return view('student/create', $data);
+    }
+
+    public function save()
+    {
+        $model = new StudentModel();
+        $data = [
+            'nim' => $this->request->getPost('nim'),
+            'name' => $this->request->getPost('name'),
+            'pob' => $this->request->getPost('pob'),
+            'dob' => $this->request->getPost('dob'),
+            'address' => $this->request->getPost('address'),
+        ];
+        $model->save($data);
+        return redirect()->to('/student');
+    }
 }

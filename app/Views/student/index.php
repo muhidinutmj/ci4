@@ -2,8 +2,13 @@
 
 <?= $this->section('content'); ?>
 <div class="row">
-    <div class="col-12">
+    <div class="col-10">
         <h1 class="mb-4">Daftar Mahasiswa</h1>
+    </div>
+    <div class="col-2">
+        <a href="student/create" class="btn btn-info btn-lg">Tambah Data</a>
+    </div>
+    <div class="col-12">
         <table class="table table-striped">
             <thead>
                 <tr>

@@ -8,3 +8,5 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->get('/halo', 'Halo::index');
 $routes->get('/student', 'StudentController::index');
+$routes->get('/student/create', 'StudentController::create');
+$routes->post('/student/save', 'StudentController::save');
