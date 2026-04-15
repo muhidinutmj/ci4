@@ -14,3 +14,8 @@ Memahami view melalui template
 ### Pertemuan 4
 - Memahami view melalui template
 - Melanjutkan template
+- Memahami Model
+
+### Pertemuan 5
+- Login
+- Register
