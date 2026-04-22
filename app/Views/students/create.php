@@ -6,10 +6,10 @@
         <h1 class="mb-4">Tambah Mahasiswa</h1>
     </div>
     <div class="col-2">
-        <a href="<?=base_url()?>student/index" class="btn btn-info btn-lg">Lihat Data</a>
+        <a href="<?=base_url()?>/students" class="btn btn-info btn-lg">Lihat Data</a>
     </div>
     <div class="col-12">
-        <form action="<?=base_url()?>student/save" method="post">
+        <form action="<?=base_url()?>/students/save" method="post">
             <div class="mb-3">
                 <label for="nim" class="form-label">NIM</label>
                 <input type="number" class="form-control" id="nim" name="nim" required>

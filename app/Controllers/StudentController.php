@@ -15,7 +15,7 @@ class StudentController extends BaseController
             'title' => 'Mahasiswa',
             'students' => $model->findAll(),
         ];
-        return view('student/index', $data);
+        return view('students/index', $data);
     }
 
     public function create()
@@ -23,7 +23,7 @@ class StudentController extends BaseController
         $data = [
             'title' => 'Tambah Mahasiswa',
         ];
-        return view('student/create', $data);
+        return view('students/create', $data);
     }
 
     public function save()
@@ -37,6 +37,6 @@ class StudentController extends BaseController
             'address' => $this->request->getPost('address'),
         ];
         $model->save($data);
-        return redirect()->to('/student');
+        return redirect()->to('/students')->with('success', 'Data mahasiswa berhasil disimpan.')    ;
     }
 }

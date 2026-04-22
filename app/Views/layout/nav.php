@@ -13,7 +13,7 @@
                     <a href="." class="nav-link <?= ($title == 'Dashboard') ? 'active' : '' ?>">Dashboard</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= base_url('student') ?>" class="nav-link <?= ($title == 'Mahasiswa') ? 'active' : '' ?>">Mahasiswa</a>
+                    <a href="<?= base_url('students') ?>" class="nav-link <?= ($title == 'Mahasiswa') ? 'active' : '' ?>">Mahasiswa</a>
                 </li>
             </ul>
         </div>

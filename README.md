@@ -18,7 +18,13 @@ Memahami view melalui template
 
 ### Pertemuan 5
 - Create data mahasiswa + save
+- Read data
 
+### Pertemuan 6
+- Update data
+- Delete data
+- Migration
+- Seeder
 
 
 - Login

@@ -6,7 +6,7 @@
         <h1 class="mb-4">Daftar Mahasiswa</h1>
     </div>
     <div class="col-2">
-        <a href="student/create" class="btn btn-info btn-lg">Tambah Data</a>
+        <a href="<?= base_url('/students/create') ?>" class="btn btn-info btn-lg">Tambah Data</a>
     </div>
     <div class="col-12">
         <table class="table table-striped">
