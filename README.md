@@ -23,9 +23,9 @@ Memahami view melalui template
 ### Pertemuan 6
 - Update data
 - Delete data
+
+### Nanti Berikutnya
 - Migration
 - Seeder
-
-
 - Login
 - Register

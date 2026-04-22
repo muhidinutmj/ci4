@@ -31,8 +31,8 @@
                         <td><?= $student['dob'] ?></td>
                         <td><?= $student['address'] ?></td>
                         <td>
-                            <a href="#" class="btn btn-sm btn-primary">Edit</a>
-                            <a href="#" class="btn btn-sm btn-danger">Hapus</a>
+                            <a href="<?= base_url('/students/edit/' . $student['id']) ?>" class="btn btn-sm btn-primary">Edit</a>
+                            <a href="<?= base_url('/students/delete/' . $student['id']) ?>" onclick="return confirm('Apakah anda yakin ingin menghapus data ini?')" class="btn btn-sm btn-danger">Hapus</a>
                         </td>
                     </tr>
                 <?php endforeach; ?>
